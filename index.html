@@ -1,43 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Subway Surfers</title>
+  <head>
+    <meta charset="utf-8" />
+    <title>Subway Surfers</title>
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/sc70049109-wq/subway-surfers@main/img/FirstAvatar.png">
 
-  <link rel="icon" href="https://cdn.jsdelivr.net/gh/sc70049109-wq/subway-surfers@main/img/FirstAvatar.png">
+    <script src="https://cdn.jsdelivr.net/gh/sc70049109-wq/subway-surfers@main/4399.z.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/gh/sc70049109-wq/subway-surfers@main/4399.z.js"></script>
+    <script>
+      const BASE = "https://cdn.jsdelivr.net/gh/sc70049109-wq/subway-surfers@main/";
 
-  <script>
-    const BASE = "https://cdn.jsdelivr.net/gh/sc70049109-wq/subway-surfers@main/";
+      window.config = {
+        loader: "unity",
+        debug: false,
+        maxRatio: 16/9,
+        minRatio: 9/16,
+        title: "Subway Surfers: San Francisco",
+        unityVersion: "2019.4.18f1",
+        unityWebglBuildUrl: BASE + "Build/SanFrancisco.json",
+        fileSize: 35,
+        cachedDecompressedFileSizes: {
+          "SanFrancisco.asm.code.unityweb": 9077143,
+          "SanFrancisco.asm.framework.unityweb": 86369,
+          "SanFrancisco.asm.memory.unityweb": 951447,
+          "SanFrancisco.data.unityweb": 18323917,
+          "SanFrancisco.wasm.code.unityweb": 7279617,
+          "SanFrancisco.wasm.framework.unityweb": 90693
+        }
+      };
+    </script>
+  </head>
 
-    window.config = {
-      loader: "unity",
-      debug: false,
-      maxRatio: 16 / 9,
-      minRatio: 9 / 16,
-
-      title: "Subway Surfers: San Francisco",
-      unityVersion: "2019.4.18f1",
-
-      // JSON file hosted on jsDelivr
-      unityWebglBuildUrl: BASE + "Build/SanFrancisco.json",
-
-      fileSize: 35,
-      cachedDecompressedFileSizes: {
-        "SanFrancisco.asm.code.unityweb": 9077143,
-        "SanFrancisco.asm.framework.unityweb": 86369,
-        "SanFrancisco.asm.memory.unityweb": 951447,
-        "SanFrancisco.data.unityweb": 18323917,
-        "SanFrancisco.wasm.code.unityweb": 7279617,
-        "SanFrancisco.wasm.framework.unityweb": 90693
-      }
-    };
-  </script>
-</head>
-
-<body>
-  <script src="https://cdn.jsdelivr.net/gh/sc70049109-wq/subway-surfers@main/master-loader.js"></script>
-</body>
+  <body>
+    <script src="https://cdn.jsdelivr.net/gh/sc70049109-wq/subway-surfers@main/master-loader.js"></script>
+  </body>
 </html>
